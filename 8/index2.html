@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoisting Pada Function</title>
+  </head>
+  <body>
+    <script>
+      console.log(getLuas(4, 5));
+
+      var getLuas = function (panjang, lebar) {
+        return panjang * lebar;
+      };
+    </script>
+  </body>
+</html>
